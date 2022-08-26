@@ -9,5 +9,5 @@ This project built a simple oscilloscope by Labview,based on NI DAQ.
 
 ## The UI of this software
 
-![OSC-UI](https://github.com/airNomatt/Oscilloscope/blob/main/images/OSC-UI.png)
+![OSC-UI]([https://github.com/airNomatt/Oscilloscope/blob/main/images/OSC-UI.png](https://github.com/airNomatt/Oscilloscope/blob/main/images/OSC-UI%E7%95%8C%E9%9D%A2.png))
 
