@@ -11,7 +11,7 @@ This project built a simple oscilloscope by Labview,based on NI DAQ.
 
 ## 一、软件UI界面介绍
 
-![OSC-UI界面](https://images.cnblogs.com/cnblogs_com/blogs/734322/galleries/2208430/o_220825064348_OSC-UI%E7%95%8C%E9%9D%A2.png)
+![OSC-UI界面](https://github.com/airNomatt/Oscilloscope/blob/main/images/OSC-UI%E7%95%8C%E9%9D%A2.png)
 
 Signal实时显示信号波形，Frequency显示信号1s数据的频谱。
 
@@ -35,13 +35,13 @@ Labview后面板中，位于同一层的程序图在执行时具有相同的优�
 
 DAQmx函数套件是Labview中，专门用于与NI公司的数据采集硬件设备进行交互的函数套件。可以在安装Labview时勾选相关组件，或者安装后通过VI Package Manager进行添加。
 
-![DAQmx](https://images.cnblogs.com/cnblogs_com/blogs/734322/galleries/2208430/o_220825064340_DAQmx.png)
+![DAQmx](https://github.com/airNomatt/Oscilloscope/blob/main/images/DAQmx.png)
 
 使用该套件进行数据读取的方法如下：
 
 依次选择函数：创建通道(Create Channel)、采样时钟(Timing）、开始任务(Start)、读取数据(Read)、停止任务(Stop)、清楚任务(Clear)。
 
-![DAQ连接](https://images.cnblogs.com/cnblogs_com/blogs/734322/galleries/2208430/o_220825064319_DAQ%E8%BF%9E%E6%8E%A5.png)
+![DAQ连接](https://github.com/airNomatt/Oscilloscope/blob/main/images/DAQ%E8%BF%9E%E6%8E%A5.png)
 
 连接方式如上，数据一般要进行多次读取，所以Read函数一般放在循环结构中。**各个函数其他必要参数可查看帮助文档**，下面对上述连接方式做几点简要说明：
 
@@ -55,7 +55,7 @@ DAQmx函数套件是Labview中，专门用于与NI公司的数据采集硬件设
 
 为了实现波形大小可调，本程序使用如下方法构建XY图所需数据
 
-![XY图数据处理](https://images.cnblogs.com/cnblogs_com/blogs/734322/galleries/2208430/o_220825064426_XY%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86.png)
+![XY图数据处理](https://github.com/airNomatt/Oscilloscope/blob/main/images/XY%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86.png)
 
 ## 五、程序的拓展项
 
